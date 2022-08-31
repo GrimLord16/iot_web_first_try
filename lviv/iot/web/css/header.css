@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title{
+    color: #37447E;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.header__items-on-right{
+    /* align-items: right; */
+    display: flex;
+    gap: 3.75rem;
+}
+
+.header__nav ul{
+    display: flex;
+    gap: 3.75rem;
+    
+    
+}
+
+.header__nav-item a, .header__nav-item:visited a {
+
+    color: #505F98;
+    text-decoration: none;
+
+
+}
+
+.header__buttons {
+    align-self: center;
+    display: flex;
+    gap: 1.625rem;
+}
+
+.header__learn-more{
+    color: #FFFFFF;
+    background: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 160px;
+    border: 0;
+}
+.header__buy-now{
+    background: #FFD166;
+    border-radius: 2px;
+    color: #111B47;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 160px;
+    border: 0;
+}
