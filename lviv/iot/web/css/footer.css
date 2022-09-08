@@ -3,7 +3,7 @@
 }
 
 .footer__context {
-    max-width: 1110px;
+    max-width: 75vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -20,14 +20,13 @@
 .footer__title {
     color: #37447E;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 1.625rem;
     margin: 0;
 }
 
 .footer__tag {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
     color: #939EA4;
 }
 
@@ -40,14 +39,13 @@
 
 .footer__button {
     font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75rem;
     text-align: center;
     color: #FFFFFF;
     background: #111B47;
-    border-radius: 2px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    border-radius: 0.125rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
     margin: auto;
     align-self: center;
     width: 6.8125rem;

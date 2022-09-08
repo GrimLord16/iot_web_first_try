@@ -2,8 +2,6 @@
     display: flex;
     /* gap: 3rem; */
     padding: 120px 0 0 0;
-    height: 80vh;
-    width: 85.5vw;
     overflow: hidden;
     
 }
@@ -31,23 +29,26 @@
 
 .hero__icons {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .hero__img {
     position: absolute;
     right: 0;
     padding: 20px 0 0 100px;
-    max-width: 50vw;
+    max-width: 640px;
     max-height: 562px;
     overflow: hidden;
-/* 
-
-    position: fixed;
-    top: 120px;
-    right: -500px; */
+    animation: featuring 2s ease-in-out infinite;
 }
 
 .hero__image {
     /* width: 69rem; */
     min-width: 69rem;
+}
+
+@media screen and (max-width: 1124px) {
+    .hero__img {
+        display: none;
+    }
 }
