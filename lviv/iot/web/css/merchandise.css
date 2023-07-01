@@ -1,0 +1,65 @@
+.content__merchandise {
+    padding-top: 3.75rem;
+    max-width: 100%;
+}
+
+.merchandise__higher-panel {
+    max-width: 80vw;
+    padding-top: 3.6875rem;
+    padding-bottom: 3.75rem;
+    width: 45.625rem;
+}
+
+.merchandise__title {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #091133;
+    padding-bottom: 1rem;
+}
+
+.merchandise__lower-panel {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.merchandise__package {
+    
+    width: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.merchandise__package-title {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #37447E;
+    margin: 0;
+}
+
+.merchandise__package-subtitle {
+    font-weight: 500;
+    font-size: 1.375rem;
+    color: #091133;
+    padding-bottom: 1rem;
+}
+
+.merchandise__paragraph {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #5D6970;
+
+}
+
+.merchandise__button {
+    font-weight: 500;
+    font-size: 0.75rem;
+    background: #111B47;
+    border-radius: 0.125rem;
+    color: #FFFFFF;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 11.8125rem;
+}

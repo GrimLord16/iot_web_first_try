@@ -1,0 +1,54 @@
+.content__hero {
+    display: flex;
+    /* gap: 3rem; */
+    padding: 120px 0 0 0;
+    overflow: hidden;
+    
+}
+.hero__inner {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.hero__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.hero__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.hero__icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero__img {
+    position: absolute;
+    right: 0;
+    padding: 20px 0 0 100px;
+    max-width: 640px;
+    max-height: 562px;
+    overflow: hidden;
+    animation: featuring 2s ease-in-out infinite;
+}
+
+.hero__image {
+    /* width: 69rem; */
+    min-width: 69rem;
+}
+
+@media screen and (max-width: 1124px) {
+    .hero__img {
+        display: none;
+    }
+}

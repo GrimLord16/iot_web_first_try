@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: none;
+    width: 32px;
+    cursor: pointer;
+}
+
+.header__menu>img {
+    max-width: 100%;
+}
+
+.header__menu-icon {
+    width: 40px;
+}
+
+
+.header__title {
+    color: #37447E;
+    font-weight: 900;
+    font-size: 1.625rem;
+}
+
+.header__items-on-right {
+    /* align-items: right; */
+    display: flex;
+    gap: 3.75rem;
+}
+
+
+.header__nav ul {
+    display: flex;
+    gap: 3.75rem;
+
+
+}
+
+.header__nav-item a,
+.header__nav-item:visited a {
+
+    color: #505F98;
+    text-decoration: none;
+
+
+}
+
+.header__buttons {
+    align-self: center;
+    display: flex;
+    gap: 1.625rem;
+}
+
+.header__learn-more {
+    color: #FFFFFF;
+    background: #111B47;
+    border-radius: 0.125rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 160px;
+    border: 0;
+}
+
+.header__buy-now {
+    background: #FFD166;
+    border-radius: 0.125rem;
+    color: #111B47;
+    font-weight: 500;
+    font-size: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 160px;
+    border: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+      position: fixed;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background-color: white;
+      z-index: 10;
+    }
+  
+    .header__menu {
+      display: block;
+    }
+  
+    .header__buy-now {
+      display: none;
+    }
+
+    .header__learn-more {
+        display: none;
+    }
+  
+    .header__nav {
+      background:  #055069;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin-top: 0;
+      clip-path: circle(0 at top left);
+      transition: clip-path 0.9s ease-in;
+      text-align: center;
+
+    }
+  
+    .header__nav.open {
+      clip-path: circle(500px at top);
+    }
+  
+    .header__nav ul {
+      flex-direction: column;
+      height: 50%;
+    }
+  
+    .header__nav .header__nav-item {
+      margin-right: 0;
+      padding-top: 5vh;
+      flex: 1;
+    }
+  
+    .header__nav a {
+      font-weight: 500;
+      display: block;
+      font-size: 2rem;
+      color: #FFFFFF;
+    }
+  }
